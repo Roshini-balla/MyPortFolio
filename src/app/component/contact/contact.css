@@ -1,0 +1,31 @@
+.contact-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #6a11cb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-details p {
+  font-size: 1.05rem;
+  margin: 10px 0;
+  font-weight: 500;
+  color: #333;
+}
