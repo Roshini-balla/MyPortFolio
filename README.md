@@ -21,6 +21,9 @@ This site showcases about me, my skills, projects as a developer.
 - **Design**: Responsive CSS, Flexbox/Grid
 - **Tools**: Visual Studio Code, Git, GitHub
 
+---
+## 🖼️ Home Page Screenshot
+[Home Screenshot](assets/homess.png)
 
 ---
 
