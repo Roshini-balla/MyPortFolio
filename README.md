@@ -25,7 +25,7 @@ This website showcases my skills, projects, and more about me as a web developer
 ---
 
 ## 🚀 Live Website
-[https://roshini-balla.github.io/portfolio-website](https://roshini-balla.github.io/portfolio-website/)
+[https://roshini-balla.github.io/portfolio-website](https://roshini-balla.github.io/MyPortFolio/)
 
 ## 🎥 Demo Video
 👉 [Watch the video demo here](https://drive.google.com/file/d/1PuWANU0XdA0eMGMlK3j7FwRcKU1jyhfN/view?usp=sharing)
