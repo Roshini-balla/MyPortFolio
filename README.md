@@ -22,10 +22,6 @@ This website showcases my skills, projects, and more about me as a web developer
 - **Design**: Responsive CSS (Flexbox & Grid)  
 - **Tools**: Visual Studio Code, Git, GitHub  
 
----
-
-## 🚀 Live Website  
-👉 [https://roshini-balla.github.io/MyPortFolio/](https://roshini-balla.github.io/MyPortFolio/)
 
 ---
 
