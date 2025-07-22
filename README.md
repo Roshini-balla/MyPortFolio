@@ -24,9 +24,14 @@ This website showcases my skills, projects, and more about me as a web developer
 
 ---
 
-## 🖼️ Home Page Screenshot
+## 🚀 Live Website
+[https://roshini.github.io/portfolio](https://roshini.github.io/portfolio)
 
-![Home Screenshot](src/assets/homess.png)
+## 🎥 Demo Video
+👉 [Watch the video demo here](https://drive.google.com/file/d/1PuWANU0XdA0eMGMlK3j7FwRcKU1jyhfN/view?usp=sharing)
+
+[![Watch Demo](./src/assets/homess.png)](https://drive.google.com/file/d/1PuWANU0XdA0eMGMlK3j7FwRcKU1jyhfN/view?usp=sharing)
+
 
 ---
 
