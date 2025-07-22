@@ -24,18 +24,19 @@ This website showcases my skills, projects, and more about me as a web developer
 
 ---
 
-## 🚀 Live Website
-[https://roshini-balla.github.io/portfolio-website]([https://roshini-balla.github.io/MyPortFolio/])
+## 🚀 Live Website  
+👉 [https://roshini-balla.github.io/MyPortFolio/](https://roshini-balla.github.io/MyPortFolio/)
 
-## 🎥 Demo Video
+---
+
+## 🎥 Demo Video  
 👉 [Watch the video demo here](https://drive.google.com/file/d/1PuWANU0XdA0eMGMlK3j7FwRcKU1jyhfN/view?usp=sharing)
 
 [![Watch Demo](./src/assets/homess.png)](https://drive.google.com/file/d/1PuWANU0XdA0eMGMlK3j7FwRcKU1jyhfN/view?usp=sharing)
 
-
 ---
 
-## 🚀 How to Run Locally
+## 💻 How to Run Locally
 
 Follow these steps to set up and run the project on your local machine:
 
