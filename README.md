@@ -23,7 +23,7 @@ This site showcases about me, my skills, projects as a developer.
 
 ---
 ## 🖼️ Home Page Screenshot
-![Home Screenshot](assets/homess.png)
+![Home Screenshot](src/assets/homess.png)
 
 ---
 
