@@ -5,32 +5,30 @@
   "projects": {
     "portfolio-website": {
       "projectType": "application",
-      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
-  "builder": "@angular/build:application",
-  "options": {
-    "browser": "src/main.ts",
-    "tsConfig": "tsconfig.app.json",
-    "assets": [
-      "src/favicon.ico",
-      "src/assets"
-    ],
-   "styles": [
-  "src/styles.css",
-  "node_modules/aos/dist/aos.css"
-],
-
-    "server": "src/main.server.ts",
-    "outputMode": "server",
-    "ssr": {
-      "entry": "src/server.ts"
-    }
-  },
-
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/portfolio-website/browser",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css",
+              "node_modules/aos/dist/aos.css"
+            ],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
+          },
           "configurations": {
             "production": {
               "budgets": [
@@ -45,48 +43,56 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,
+              "sourceMap": false,
+              "extractCss": true
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "vendorChunk": true
             }
           },
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular/build:dev-server",
+          "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portfolio-website:build:production"
+              "browserTarget": "portfolio-website:build:production"
             },
             "development": {
-              "buildTarget": "portfolio-website:build:development"
+              "browserTarget": "portfolio-website:build:development"
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "portfolio-website:build"
+          }
         },
         "test": {
-          "builder": "@angular/build:karma",
+          "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
-           "assets": [
-  "src/favicon.ico",
-  "src/assets"
-],
-
-           "styles": [
-  "src/styles.css",
-  "node_modules/aos/dist/aos.css"
-],
-"scripts": [
-  "node_modules/aos/dist/aos.js"
-]
-
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css",
+              "node_modules/aos/dist/aos.css"
+            ],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           }
         }
       }
