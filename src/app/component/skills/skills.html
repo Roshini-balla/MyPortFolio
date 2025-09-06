@@ -1,13 +1,12 @@
 <section id="skills" class="skills">
   <h2>My Skills</h2>
-  <div data-aos="fade-up" class="skills-grid">
-    <div class="skill-card">🌐 HTML</div>
-    <div class="skill-card">🎨 CSS</div>
-    <div class="skill-card">⚛️ Angular</div>
-    <div class="skill-card">☕ Java</div>
-    <div class="skill-card">🌱 Spring Boot</div>
-    <div class="skill-card">🛢️ MySQL</div>
-    <div class="skill-card">🧠 Problem Solving</div>
-    <div class="skill-card">🗃️ Git & GitHub</div>
+  <div class="skills-grid" data-aos="fade-up">
+    <div 
+      class="skill-card" 
+      *ngFor="let skill of skills" 
+      [title]="skill.name"
+    >
+      <span class="icon">{{ skill.icon }}</span> {{ skill.name }}
+    </div>
   </div>
 </section>
